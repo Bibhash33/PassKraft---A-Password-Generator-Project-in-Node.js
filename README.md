@@ -99,3 +99,5 @@ MIT License — free to use, modify, and distribute.
 Built with ❤️ as a secure and simple password generator project.
 
 ---
+
+If u like it ,😊 give it a star ⭐
