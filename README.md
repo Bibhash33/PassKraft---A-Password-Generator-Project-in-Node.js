@@ -1,6 +1,4 @@
-Here is a **ready-to-paste `README.md`** for your GitHub repository:
 
-```md
 # 🔐 PassKraft
 
 PassKraft is a **clean, fast, and secure password generator** built with **Node.js** and a lightweight frontend.  
