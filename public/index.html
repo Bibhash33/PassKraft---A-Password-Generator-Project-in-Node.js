@@ -13,9 +13,10 @@
             <input id = "length" type="number" min="8" max="32" value="16">
             <button onclick="generatePassword()">Generate</button>
             <div class="output">
-                <input type="text" id="result" readonly>
+                <input type="text" id="result" placeholder="Result" readonly>
                 <button onclick="copyPassword()">Copy</button>
             </div>
+        <div id="strength" class="strength"></div>
         </div>
 
         <script src="script.js"></script>
