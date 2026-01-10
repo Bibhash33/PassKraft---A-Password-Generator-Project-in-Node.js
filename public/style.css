@@ -26,6 +26,7 @@ input, button{
     border: none;
     border-radius: 8px;
     padding: 10px;
+    text-align: center;
 }
 
 button{
@@ -37,4 +38,27 @@ button{
 .output{
     display: flex;
     gap: 8px;
+}
+
+.strength {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.strength.weak {
+  color: white; 
+  -webkit-text-stroke: 1px red;
+  letter-spacing: 0.08em
+}
+
+.strength.medium {
+  color: white; 
+  -webkit-text-stroke: 1px rgb(239, 186, 12);
+  letter-spacing: 0.08em
+}
+
+.strength.strong {
+  color: white; 
+  -webkit-text-stroke: 1px rgb(28, 240, 70);
+  letter-spacing: 0.08em
 }
