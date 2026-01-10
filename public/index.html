@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>PassKraft</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>PassKraft</h1>
+            <p>Secure Password Generator</p>
+            <input id = "length" type="number" min="8" max="32" value="16">
+            <button onclick="generatePassword()">Generate</button>
+            <div class="output">
+                <input type="text" id="result" readonly>
+                <button onclick="copyPassword()">Copy</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
