@@ -9,6 +9,26 @@ function generatePassword(){
     }
 
     document.getElementById("result").value = password;
+    updateStrength(password);
+}
+
+function updateStrength(password){
+    const strength = document.getElementById("strength");
+    strength.className = "strength";
+
+    
+    if(password.length < 10){
+        strength.textContent = "Weak";
+        strength.classList.add("weak");
+
+    }else if(password.length < 16){
+        strength.textContent = "Medium";
+        strength.classList.add("medium");
+    }
+    else{
+        strength.textContent = "Strong";
+        strength.classList.add("strong");
+    }
 }
 
 function copyPassword(){
